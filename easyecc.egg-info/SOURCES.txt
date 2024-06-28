@@ -1,0 +1,10 @@
+LICENSE
+README
+easyecc.py
+pyeasyecc.cpp
+pyproject.toml
+setup.py
+easyecc.egg-info/PKG-INFO
+easyecc.egg-info/SOURCES.txt
+easyecc.egg-info/dependency_links.txt
+easyecc.egg-info/top_level.txt
