@@ -49,13 +49,13 @@ COPY . .
 # RUN pip3 install -r requirements.txt
 
 # Installing cryptopp
-WORKDIR /cryptopp
+WORKDIR /app/cryptopp
 RUN make
 RUN make test
 RUN make install
 
 # custom module install use for encryption/decryption
-WORKDIR /easyecc
+WORKDIR /app/easyecc
 RUN pip3 install .
 
 # Set the entry point or default command

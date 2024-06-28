@@ -1,8 +1,4 @@
-LICENSE
-README
-easyecc.py
-pyeasyecc.cpp
-pyproject.toml
+README.md
 setup.py
 easyecc.egg-info/PKG-INFO
 easyecc.egg-info/SOURCES.txt

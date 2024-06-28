@@ -1,8 +1,7 @@
 Metadata-Version: 2.1
 Name: easyecc
-Version: 0.4
+Version: 0.6
 Summary: A simple wrapper around Crypto++ for Elliptical Curve Cryptography
 Home-page: https://github.com/cureatr/easyecc
 Author: Alex Khomenko
 Author-email: khomenko@cs.stanford.edu
-License-File: LICENSE
