@@ -58,8 +58,6 @@ RUN make install
 WORKDIR /easyecc
 RUN pip3 install .
 
-# WORKDIR /aphttps://github.com/AishniNarain/easyecc-app.gitp
-
-ENTRYPOINT ["/usr/bin/supervisord", "-c", "/app/supervisord.conf"]
-CMD ["-n"]
+# Set the entry point or default command
+CMD ["python3", "easyecc.py"]
 
